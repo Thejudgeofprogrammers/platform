@@ -1,0 +1,97 @@
+<mxfile host="65bd71144e">
+    <diagram id="iOAkb1N7Pz8WxmRG9bn1" name="Page-1">
+        <mxGraphModel dx="1216" dy="787" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="10" value="React / frontend" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="194" y="90" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" value="Nginx / Load Balancer" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="194" y="170" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" value="API Gateway" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="194" y="250" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="13" value="Auth Service" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="194" y="330" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="14" value="User Service" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="194" y="410" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="15" value="Redis" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="34" y="90" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="16" value="Postgres" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="34" y="170" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="17" value="MongoDB" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="34" y="250" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="18" value="RabbitMQ" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="354" y="90" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="19" value="Notification Service" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="194" y="490" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="20" value="Prometheus" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="514" y="90" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="21" value="S3" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="34" y="330" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="22" value="Grafana" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="514" y="170" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="23" value="gRPC" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="354" y="170" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="24" value="Websocket" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="354" y="250" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="25" value="Rest" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="354" y="330" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="26" value="GraphQL" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="354" y="410" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="27" value="Terraform" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="674" y="90" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="28" value="Ansible" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="674" y="170" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="31" value="Data" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="64" y="30" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="32" value="Logic" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="224" y="30" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="33" value="Transport" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="384" y="30" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="34" value="Monitoring" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="544" y="30" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="35" value="Automatic" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="704" y="30" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="36" value="Youtube Service" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="194" y="570" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="37" value="Music Service" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="194" y="650" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="38" value="Office Docs Service" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="194" y="730" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="39" value="Interface Service" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="194" y="810" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="40" value="WebRPC" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="354" y="490" width="120" height="60" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>

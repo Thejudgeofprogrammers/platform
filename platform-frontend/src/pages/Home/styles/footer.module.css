@@ -1,0 +1,25 @@
+/* Footer */
+.footer {
+  font-family: var(--font-retro);
+  font-size: 0.925rem;
+  background: var(--bg);
+  color: black;
+  padding: 1rem;
+  text-align: center;
+  border-top: 2px solid var(--border-dark);
+  box-shadow: inset -2px -2px var(--border-light), inset 2px 2px var(--border-medium);
+}
+
+.links {
+  margin-top: 0.5rem;
+}
+
+.links a {
+  color: black;
+  margin: 0 1rem;
+  text-decoration: underline;
+}
+
+.links a:hover {
+  color: #333;
+}

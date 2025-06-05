@@ -1,0 +1,56 @@
+.heroSection {
+  height: 90vh;
+  background-color: #f9f5e3;          /* очень светлый бежевый фон */
+  color: #5a3e85;                     /* насыщенный фиолетовый текст */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 3rem 1.5rem;
+}
+
+.heroTitle {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  color: #7e6c99;                    /* мягкий светло-фиолетовый */
+  text-shadow: 1px 1px 0 #d8c68a;   /* нежная жёлтая тень для объёма */
+}
+
+@media (min-width: 768px) {
+  .heroTitle {
+    font-size: 3.5rem;
+  }
+}
+
+.heroDescription {
+  font-size: 1.125rem;
+  max-width: 40rem;
+  margin-bottom: 2rem;
+  color: #8f84b6;                    /* светло-фиолетовый, чуть светлее */
+  line-height: 1.6;
+}
+
+.ctaButton {
+  background-color: #7e6c99;          /* светло-фиолетовый фон */
+  color: #f9f5e3;                     /* светлый бежевый текст */
+  font-weight: 600;
+  padding: 0.75rem 2rem;
+  border-radius: 9999px;
+  box-shadow: 0 8px 20px rgba(126, 108, 153, 0.4); /* мягкая фиолетовая тень */
+  border: none;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+}
+
+.ctaButton:hover {
+  background-color: #9b8dc9;          /* чуть светлее и мягче */
+  transform: scale(1.05);
+  box-shadow: 0 12px 25px rgba(126, 108, 153, 0.6);
+}
+
+.ctaButton:active {
+  transform: scale(0.97);
+  box-shadow: 0 6px 15px rgba(126, 108, 153, 0.3);
+}

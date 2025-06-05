@@ -1,0 +1,31 @@
+type WindowWrapperProps = {
+  id: string;
+  children: React.ReactNode;
+  onClose: () => void;
+};
+
+const WindowWrapper: React.FC<WindowWrapperProps> = ({ id, children, onClose }) => {
+  const isTop = id === topWindowId;
+
+  const handleClick = () => {
+    setTopWindowId(id);
+  };
+
+  return (
+    <div
+      onMouseDown={handleClick}
+      className={styles.window}
+      style={{
+        position: "absolute",
+        top: 100,
+        left: 100,
+        zIndex: isTop ? 1000 : 1,
+      }}
+    >
+      <div className={styles.windowHeader}>
+        <button onClick={onClose}>X</button>
+      </div>
+      <div className={styles.windowContent}>{children}</div>
+    </div>
+  );
+};

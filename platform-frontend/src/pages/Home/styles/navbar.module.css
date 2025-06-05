@@ -1,0 +1,143 @@
+/* src/components/navbar.module.css */
+:root {
+  --bg: #d9a066;
+  --border-light: #f0d8a8;
+  --border-dark: #8b5e2c;
+  --border-medium: #b07f42;
+
+  --font-retro: 'Press Start 2P', monospace;
+
+  --btn-bg: #c8a165;
+  --btn-bg-hover: #a67c3b;
+  --btn-border-light: #e3c991;
+  --btn-border-dark: #7a5d28;
+
+  --link-color: #f9f1d0;
+  --link-hover-bg: #e6c77b;
+}
+
+.nav {
+  font-family: var(--font-retro);
+  background: var(--bg);
+  padding: 0.7rem 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 2px solid var(--border-dark);
+  box-shadow: inset -2px -2px var(--border-light), inset 2px 2px var(--border-medium);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.logo {
+  font-size: 1.75rem;
+  color: var(--link-color);
+  text-shadow: 1px 1px 0 var(--border-dark);
+  cursor: default;
+  user-select: none;
+}
+
+.menu {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.link {
+  font-family: var(--font-retro);
+  font-size: 1rem;
+  background: var(--btn-bg);
+  padding: 8px 16px;
+  color: var(--link-color);
+  text-decoration: none;
+  cursor: pointer;
+  transition: background 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  user-select: none;
+  border-radius: 2%;
+  
+  border: 2px solid var(--btn-border-dark);
+  box-shadow: inset -2px -2px var(--btn-border-light), 
+}
+
+.link:hover {
+  background: var(--btn-bg-hover);
+  box-shadow: inset 2px 2px var(--btn-border-light), inset -2px -2px var(--btn-border-dark);
+}
+
+.link:active {
+  box-shadow: inset 2px 2px var(--btn-border-light), inset -2px -2px var(--btn-border-dark);
+  background: #997531;
+}
+
+.button {
+  font-family: var(--font-retro);
+  font-size: 1rem;
+  padding: 8px 16px;
+  background: #b15b3a;
+  color: var(--link-color);
+  cursor: pointer;
+  transition: background 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  user-select: none;
+  border-radius: 2%;
+  border: 2px solid var(--btn-border-dark);
+  box-shadow: inset -2px -2px var(--btn-border-light), 
+}
+
+.button:hover {
+  background: #8f4a2a;
+  box-shadow: inset 2px 2px #d79d7f, inset -2px -2px #65311a;
+}
+
+.button:active {
+  box-shadow: inset 2px 2px #d79d7f, inset -2px -2px #65311a;
+  background: #5c2e17;
+}
+
+/* Бургер */
+.burger {
+  display: none;
+  flex-direction: column;
+  gap: 4px;
+  cursor: pointer;
+}
+
+.burger div {
+  width: 24px;
+  height: 3px;
+  background: var(--link-color);
+  border: 1px solid var(--border-dark);
+  box-shadow: inset -1px -1px var(--border-light), inset 1px 1px var(--border-medium);
+  border-radius: 1px;
+}
+
+/* Адаптивность */
+@media (max-width: 600px) {
+  .burger {
+    display: flex;
+  }
+
+  .menu {
+    position: absolute;
+    top: 100%;
+    right: 0;
+    background: var(--bg);
+    flex-direction: column;
+    gap: 0;
+    border: 4px solid var(--border-dark);
+    box-shadow: inset -4px -4px var(--border-light), inset 4px 4px var(--border-medium);
+    display: none;
+    width: 150px;
+  }
+
+  .menu.open {
+    display: flex;
+  }
+
+  .link, .button {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 8px 12px;
+    border-width: 2px;
+  }
+}

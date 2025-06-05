@@ -1,0 +1,59 @@
+.section {
+  background-color: #f9f5e3; /* очень светлый бежевый фон */
+  padding: 5rem 1.5rem;
+  color: #5a3e85; /* насыщенный фиолетовый текст */
+  text-align: center;
+}
+
+.title {
+  font-size: 2.25rem;
+  font-weight: bold;
+  margin-bottom: 3rem;
+  color: #7e6c99; /* мягкий светло-фиолетовый */
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2rem;
+  max-width: 1024px;
+  margin: 0 auto;
+}
+
+@media (min-width: 768px) {
+  .grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+.card {
+  background-color: #fffaf0; /* очень светлый кремовый фон карточек */
+  padding: 2rem;
+  border-radius: 1rem;
+  box-shadow: 0 10px 25px rgba(126, 108, 153, 0.1); /* лёгкая фиолетовая тень */
+  transition: transform 0.3s, box-shadow 0.3s;
+  text-align: left;
+  color: #5a3e85; /* основной текст — фиолетовый */
+}
+
+.card:hover {
+  transform: scale(1.03);
+  box-shadow: 0 14px 35px rgba(126, 108, 153, 0.25);
+}
+
+.icon {
+  color: #d8c68a; /* мягкий жёлтый акцент */
+  margin-bottom: 1rem;
+}
+
+.cardTitle {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  color: #7e6c99;
+}
+
+.description {
+  color: #8f84b6; /* светло-фиолетовый для описания */
+  font-size: 1rem;
+}

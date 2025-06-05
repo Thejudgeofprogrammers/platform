@@ -1,0 +1,51 @@
+.section {
+  background-color: #f9f5e3; /* очень светлый бежевый фон */
+  color: #5a3e85;            /* насыщенный фиолетовый */
+  padding: 4.5rem 1.5rem;
+  text-align: center;
+  border-radius: 1rem;
+  box-shadow: 6px 6px 0px #b3a161; /* мягкая жёлтая тень */
+  max-width: 640px;
+  margin: 20px auto;
+}
+
+.title {
+  font-size: 2.25rem;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+  color: #7e6c99; /* мягкий светло-фиолетовый */
+  letter-spacing: 0.03em;
+}
+
+.text {
+  font-size: 1.125rem;
+  color: #8f84b6; /* светло-фиолетовый */
+  margin-bottom: 2.5rem;
+  line-height: 1.5;
+  max-width: 520px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.button {
+  background-color: #7e6c99; /* светло-фиолетовый */
+  color: #f9f5e3;            /* светлый бежевый */
+  font-weight: 600;
+  padding: 0.85rem 2.5rem;
+  border-radius: 9999px;
+  border: 4px solid #5a3e85; /* тёмно-фиолетовая рамка */
+  box-shadow: 0 6px 0 #5a3e85;
+  cursor: pointer;
+  transition: 
+    background-color 0.3s ease,
+    transform 0.3s ease,
+    box-shadow 0.3s ease;
+  user-select: none;
+  font-size: 1rem;
+}
+
+.button:hover {
+  background-color: #9b8dc9; /* чуть светлее и мягче */
+  transform: scale(1.07);
+  box-shadow: 0 10px 0 #5a3e85;
+}

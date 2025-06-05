@@ -1,0 +1,37 @@
+.desktop {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  background: #1e1e2e;
+  padding: 10px;
+}
+
+.icon {
+  width: 60px;
+  text-align: center;
+  margin: 10px;
+  color: white;
+  cursor: pointer;
+}
+
+.header {
+  background: #cfc246;
+  color: white;
+  padding: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: move;
+}
+
+.header_button {
+  padding: 4px;
+}
+
+.header_button button {
+
+  justify-content: center;
+  align-items: center;
+  padding: 0 16px;
+  height: 28px;
+}
