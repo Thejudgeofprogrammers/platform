@@ -1,4 +1,4 @@
-import { IconData } from "./types/types";
+import { IconData } from "../types/types";
 
 export const initialIcons: IconData[] = [
     { id: "folder", label: "Файлы", img: "/icons/folder.png", x: 0, y: 40 },

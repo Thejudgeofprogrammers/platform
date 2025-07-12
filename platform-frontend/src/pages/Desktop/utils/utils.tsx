@@ -15,3 +15,10 @@ export const extractVideoId = (url: string): string | null => {
         return null;
     }
 };
+
+export const GRID_SIZE = 80;
+
+export const snapToGrid = (x: number, y: number) => ({
+    x: Math.round(x / GRID_SIZE) * GRID_SIZE,
+    y: Math.round(y / GRID_SIZE) * GRID_SIZE - 38,
+});

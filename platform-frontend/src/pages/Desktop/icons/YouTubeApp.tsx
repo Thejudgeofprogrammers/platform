@@ -1,7 +1,7 @@
 import React, { useState, useRef, useEffect } from "react";
 import styles from "../styles/youtubeApp.module.css";
 import { YouTubeAppProps } from "../types/types";
-import { extractVideoId } from "../utils";
+import { extractVideoId } from "../utils/utils";
 
 const YouTubeApp: React.FC<YouTubeAppProps> = ({ onClose }) => {
     const [url, setUrl] = useState("");
